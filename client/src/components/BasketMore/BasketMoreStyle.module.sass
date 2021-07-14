@@ -1,0 +1,79 @@
+.mainContainer
+  width: 30%
+  position: absolute
+  top: 60px
+  box-sizing: border-box
+  right: 0
+  border: 3px solid #1060c1
+  padding: 10px 20px
+  background-color: white
+  max-height: 50vh
+  overflow-y: scroll
+  z-index: 9999
+  @media screen and (max-width: 1176px)
+    width: 40%
+  @media screen and (max-width: 1024px)
+    width: 50%
+  @media screen and (max-width: 832px)
+    width: 60%
+  @media screen and (max-width: 768px)
+    width: 50%
+  @media screen and (max-width: 564px)
+    width: 60%
+  @media screen and (max-width: 475px)
+    width: 70%
+  @media screen and (max-width: 375px)
+    width: 100%
+.basketItem
+  width: 100%
+  font-size: 18px
+  color: black
+  display: flex
+  align-items: center
+  span+span
+    margin-left: 5px
+
+.basketItem+.basketItem
+  margin-top: 10px
+  padding-top: 10px
+  border-top: 1px solid #1060c1
+
+.imageWrapper
+  width: 50px
+  height: 50px
+  display: flex
+  justify-content: center
+  align-items: center
+  overflow: hidden
+  img
+    height: 50px
+
+.productName
+  width: 50%
+
+.tyr
+  font-size: 18px
+  font-weight: bold
+
+.close
+  cursor: pointer
+
+.doOrderContainer
+  width: 100%
+  font-size: 20px
+  display: flex
+  flex-direction: column
+  margin-top: 10px
+  text-align: right
+  border-top: 1px solid black
+
+.doOrderContainer>*+*
+  margin-top: 10px
+
+.doOrderContainer button
+  padding: 5px
+  width: 100%
+  background-color: #fdec04
+  font-size: 20px
+  cursor: pointer
+

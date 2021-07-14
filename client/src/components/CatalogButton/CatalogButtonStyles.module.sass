@@ -1,0 +1,54 @@
+.buttonContainer
+  display: flex
+  width: 30%
+  padding: 10px 20px
+  background-color: #fdec04
+  box-sizing: border-box
+  border-radius: 3px
+  cursor: pointer
+  user-select: none
+  @media screen and ( max-width: 425px )
+    padding: 10px 10px
+
+.text
+  text-transform: uppercase
+  white-space: nowrap
+  color: black
+  font-size: 16px
+  font-weight: bold
+
+@media screen and ( max-width: 1060px)
+  .text
+    display: none
+  .buttonContainer
+    width: auto
+    height: 41px
+
+.button
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  margin-left: auto
+  width: 25px
+  align-content: center
+  align-items: center
+  justify-items: center
+
+.button>span
+  width: 25px
+  height: 3px
+  background-color: black
+
+
+.topSpan
+  transition: 100ms
+  margin-right: -5px
+  transform: rotate(45deg)
+  transform-origin: left
+
+
+.bottomSpan
+  transition: 100ms
+  margin-right: -5px
+  transform: rotate(-45deg)
+  transform-origin: left

@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "diplom",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "diplom",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "diplom",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": "Op"
+  }
+}
